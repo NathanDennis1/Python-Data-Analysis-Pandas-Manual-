@@ -9,6 +9,11 @@ the pokemon data, such as questions regarding the atk(attack),
 level, and other statistics for the pokemon within the data set.
 """
 
+import math
+
+import numpy as np
+import pandas as pd
+
 
 def species_count(data):
     """
